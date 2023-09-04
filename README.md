@@ -1,2 +1,22 @@
-# Twitter-2.0
-Fully Responsive Next.js Twitter Clone with Firebase
+Twitter 2.0 Clone is a fully responsive social media platform that replicates some of the features of the popular Twitter platform. It is built using Next.js for the frontend, Firebase for real-time database and cloud functions, and NextAuth for authentication with Google.
+
+## Demo
+
+Include a link to a live demo of your project if available.
+
+[Live Demo](https://your-demo-url.com)
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/)
+- [Firebase](https://firebase.google.com/)
+- [NextAuth.js](https://next-auth.js.org/)
+
+## Features
+
+- User authentication with Google.
+- Posting tweets.
+- Real-time updates using Firebase Firestore.
+- Responsive design for various devices.
+- Like, retweet, and comment functionality.
+- User profiles.
