@@ -49,9 +49,9 @@ const Sidebar = () => {
         <CgMoreO className="group-hover:scale-75" size={20} />
         <p className="hidden md:block">More</p>
       </div>
-      <div className="flex items-center space-x-2 justify-center md:justify-start ">
+      <div className="flex items-center space-x-1 justify-center md:justify-start ">
         <div className="bg-[#1C9AEB] rounded-full">
-          <button className="px-2 md:px-8 lg:px-16 xl:px-10 py-1 md:py-2">Tweet</button>
+          <button className="px-2 md:px-8 lg:px-12 xl:px-10 py-1 md:py-2">Tweet</button>
         </div>
       </div>
       </div>
