@@ -31,7 +31,7 @@ const Posts = ({ id, postsdata }) => {
 
   return (
     // <div onClick={()=>router.push(`/${id}`)}>
-    <div className="flex border-gray-600 border-t-2 mt-2 p-2 ">
+    <div className="flex border-gray-600 border-t-2 mt-2 p-4 ">
       <div className="w-12 ">
         <img className="rounded-full" src={postsdata?.userimg} />
       </div>
@@ -42,8 +42,8 @@ const Posts = ({ id, postsdata }) => {
           <Moment fromNow>{postsdata?.timeStamp?.toDate()}</Moment>
         </div>
         <div className="text-sm">{postsdata?.text}</div>
-        <div className="mt-4">
-          <img src={postsdata?.image} />
+        <div className="mt-4 rounded-2xl p-2">
+          <img className="rounded-2xl" src={postsdata?.image} />
         </div>
         <div className="flex justify-around items-center mt-6">
           <div className="group flex items-center">
